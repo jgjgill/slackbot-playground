@@ -1,0 +1,23 @@
+{
+  "name": "slackbot-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "slackbot",
+    "nodejs"
+  ],
+  "author": "jgjgill",
+  "license": "ISC",
+  "description": "slackbot-test",
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.18.0"
+  }
+}
