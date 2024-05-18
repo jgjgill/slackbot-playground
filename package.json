@@ -1,10 +1,11 @@
 {
   "name": "slackbot-playground",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js"
+    "build": "tsc -p .",
+    "dev": "nodemon src/index.ts",
+    "start": "node src/index.ts"
   },
   "keywords": [
     "slackbot",
@@ -14,8 +15,11 @@
   "license": "ISC",
   "description": "slackbot-test",
   "devDependencies": {
+    "@types/node": "^20.12.12",
     "dotenv": "^16.4.5",
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
   },
   "dependencies": {
     "@slack/bolt": "^3.18.0"

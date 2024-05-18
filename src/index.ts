@@ -1,5 +1,6 @@
-const { App } = require("@slack/bolt");
-require("dotenv").config();
+import { App } from "@slack/bolt";
+import { config } from "dotenv";
+config();
 
 const app = new App({
   signingSecret: process.env.SLACK_SIGNING_SECRET,

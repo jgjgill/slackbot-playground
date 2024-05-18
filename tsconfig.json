@@ -1,0 +1,15 @@
+// https://github.com/tsconfig/bases/blob/main/bases/recommended.json
+
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "./dist"
+  },
+  "display": "Recommended",
+  "$schema": "https://json.schemastore.org/tsconfig"
+}
